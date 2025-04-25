@@ -1,0 +1,6 @@
+services:
+  valkey:
+    image: valkey/valekey
+    ports:
+      - 6379:6379
+    
